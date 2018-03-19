@@ -76,6 +76,7 @@ public:
 		student_id= _student_id;
 		course_grade = _course_grade;
 		credit_hour = _credit_hour;
+
 	}
 	CourseRegistration operator=(CourseRegistration from) {
 		this->course_id = from.course_id;
@@ -146,13 +147,52 @@ public:
 
 		return *this;
 	}
+	friend istream & operator >> (istream & is, Course & s);
+	friend ostream & operator << (ostream & os, Course & s);
 	
 };
+istream & operator >> (istream & is, Course & s)
+{ // read fields from 
+	cout << "(Course)Enter<y> continue, or <ctr+z> to end: " << flush;
+	is.getline(s.course_id, 30);
+	if (strlen(s.course_id) == 0) return is;
+	cout << "Enter course id: " << flush; is.getline(s.course_id, 30);
+	cout << "Enter student id: " << flush; is.getline(s.course_name, 30);
+	cout << "Enter course grade: " << flush; is.getline(s.course_grade, 30);
+	cout << "Enter credit hour: " << flush; is.getline(s.course_hour, 30);
+	cout << "Enter teacher: " << flush; is.getline(s.teacher, 30);
+	cout << "Enter classroom: " << flush; is.getline(s.classroom, 30);
+	return is;
+}
+ostream & operator << (ostream & os, Course & s)
+{ // insert fields into file
+	os << s.course_id << s.course_name << s.course_grade
+		<< s.course_hour<<s.teacher<<s.classroom;
+	return os;
+}
+void show(char filename[20]) {
+	char ch;
+	fstream file; // declare fstream unattached
+	
+	cout << "Enter the name of the file: "	// Step 1
+		<< flush; // force output						// Step 2 
+	file.open(filename, ios::in);			// Step 3 
+	file.unsetf(ios::skipws);// include white space in read
+	while (1)
+	{
+		file >> ch;							// Step 4a 
+		if (file.fail()) break;
+		cout << ch;					// Step 4b 
+	}
+	file.close();							// Step 5
+}
+
 
 int main() {
 	char filename[20];
 	Student p;
-	CourseRegistration C;
+	CourseRegistration Cr;
+	Course c;
 	cout << "Enter the file name:" << flush;
 	cin.getline(filename, 19);
 	ofstream ostream(filename, ios::out);
@@ -160,17 +200,31 @@ int main() {
 		cout << "File open failed!" << endl;
 		return 0;
 	}
+	
 	while (1) {
 		cin >> p; // read fields of person
 		if (strlen(p.id) == 0) break;
 		// write person to output stream
 		cout << p<< endl; // write fields of person
 		ostream << p;
-		cin >> C;
-		if (strlen(C.course_id) == 0) break;
-		cout << C << endl;
-		ostream << C;
 	}
+	
+	while (1) {
+		cin >> c;
+		if (strlen(c.course_id) == 0) break;
+		cout << c << endl;
+		ostream << c;
+	}
+	
+	while (1) {
+		cin >> Cr;
+		if (strlen(Cr.course_id) == 0) break;
+		cout << Cr << endl;
+		ostream << Cr;
+	}
+	
+
+	show(filename);
 	return 1;
 }
 
