@@ -1,0 +1,29 @@
+﻿  varlen.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\varlen.cpp(104): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  recordng.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\recordng.cpp(73): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  length.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\length.cpp(71): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  iobuffer.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\iobuffer.cpp(82): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  fixlen.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\fixlen.cpp(117): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  fixfld.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\fixfld.cpp(218): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  file_structure_coding_exam.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\file_structure_coding_exam.cpp(9): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  buffile.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\buffile.cpp(103): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  TestBTree1.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\testbtree1.cpp(84): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  SimpInd.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\simpind.cpp(118): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  IndNode.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\indnode.cpp(168): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  IndBuff.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\indbuff.cpp(68): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  BTree.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\btree.cpp(204): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  BTNode.cpp
+c:\users\user\desktop\file_structure_coding_exam\file_structure_coding_exam\btnode.cpp(165): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Generating Code...
