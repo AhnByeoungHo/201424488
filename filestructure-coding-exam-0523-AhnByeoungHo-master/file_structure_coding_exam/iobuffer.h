@@ -1,14 +1,14 @@
 // iobuffer.h
 #ifndef IOBUFFER_H
 #define IOBUFFER_H
-#include <stdlib>
+#include <cstdlib>
 #include <iostream>
 
 #ifndef FALSE
 #define FALSE (0)
 #define TRUE (1)
 #endif
-
+using namespace std;
 class IOBuffer 
 // An abstract base class for file buffers
 // Record variables can be packed into and extracted from a buffer.

@@ -11,7 +11,7 @@ using namespace std;
 const int BTreeSize = 5;//btree order m = 5
 
 template <class keyType>;
-int RetrieveRecording(Recording & recording, string key, Btree & RecordingIndex, RecordFile<Recording> & RecordingFile)
+int RetrieveRecording(Recording & recording, string key, BTree<string> & RecordingIndex, RecordFile<Recording> & RecordingFile)
 {
 	int Result;
 	Result = RecordingFile.Read(RecordingIndex.Search(key));
@@ -28,6 +28,7 @@ int main(int argc, char * argv)
 	Recording record;
 	FixedFieldBuffer Buffer(300, 100);
 	RecordFile<Recording> Recfile(Buffer);
+
 	Recfile.Create("recording.dat", ios::out);
 	BTree <string> bt(BTreeSize);
 	result = bt.Create("btindex.dat", ios::in | ios::out);

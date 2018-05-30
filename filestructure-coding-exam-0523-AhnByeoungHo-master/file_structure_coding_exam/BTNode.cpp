@@ -1,5 +1,5 @@
 //btnode.tc
-#include <iostream.h>
+#include <iostream>
 #include "SimpInd.h"
 #include "BTNode.h"
 #include "fixfld.h"

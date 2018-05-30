@@ -28,7 +28,7 @@ public:
 	BTree(int order, int keySize = sizeof(keyType), int unique = 1);
 	~BTree();
 	int Open(char * name, int mode);
-	int Create(char * name, int mode);
+	int Create(const char * name, int mode);
 	int Close();
 	int Insert(const keyType key, const int recAddr);
 	int Remove(const keyType key, const int recAddr = -1);

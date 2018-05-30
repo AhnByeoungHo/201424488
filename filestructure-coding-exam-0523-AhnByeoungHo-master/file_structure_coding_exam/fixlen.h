@@ -2,7 +2,7 @@
 #ifndef FIXLEN_H
 #define FIXLEN_H
 
-#include <stdlib>
+#include <cstdlib>
 #include <iostream>
 #include "iobuffer.h"
 

@@ -38,7 +38,7 @@ int BTree<keyType>::Open(char * name, int mode)
 }
 
 template <class keyType>
-int BTree<keyType>::Create(char * name, int mode)
+int BTree<keyType>::Create(const char * name, int mode)
 {
 	int result;
 	result = BTreeFile.Create(name, mode);
@@ -120,10 +120,33 @@ int BTree<keyType>::Insert(const keyType key, const int recAddr)
 template <class keyType>
 int BTree<keyType>::Remove(const keyType key, const int recAddr)
 {
-
-	int result;
-	BTNode * thisNode;
-	result = thisNode->Remove(key, recAddr);
+	int result=-1; int level = Height - 1;
+	int newLargest = 0; keyType Key;
+	BTNode * thisNode, *newNode, *parentNode;
+	parentNode = Root;
+	thisNode = Nodes;
+	while (thisNode != 0) {
+		if (parentNode != Root) {//확장필요하면확장
+			if()//빌려보고 실패하면 결합
+		}
+		if (thisNode->Search(key) >= 0) {//삭제키가여기있으면
+			//if(thisNode-> ?==0)break;	//외부노드이면 break
+			//thisNode->swap();//내부노드이면 바꿈새로운 key를 아래로 내리기
+		}
+		parentNode = thisNode;
+	}
+	thisNode->Remove(key);
+	
+	/*while (curnode is not leaf) {
+		if (current node->size <= m / 2 and not root)
+			if (borrowkey(parent)) bindnode(parent);
+		if (key is current node)
+			key = swapkey();
+		currentnode = proceed to child node;
+	}
+	if (curren node->size <= m / 2 and not root)
+		if (!borrowkey(parent)) bindnode(parent);
+	current node->remove(key);*/
 
 	return -1;
 }

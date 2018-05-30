@@ -2,7 +2,7 @@
 #ifndef FIXFLD_H
 #define FIXFLD_H
 
-#include <stdlib>
+#include <cstdlib>
 #include <iostream>
 #include "fixlen.h"
 
@@ -38,7 +38,7 @@ inline FixedFieldBuffer :: FixedFieldBuffer (const FixedFieldBuffer & buffer)
 	: FixedLengthBuffer (buffer)
 {
 	Init (buffer . NumFields, buffer . FieldSize);
-}
+};
 
 #endif
 

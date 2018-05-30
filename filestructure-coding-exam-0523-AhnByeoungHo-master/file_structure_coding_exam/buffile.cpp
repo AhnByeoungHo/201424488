@@ -2,12 +2,12 @@
 
 #include "buffile.h"
 
+
 BufferFile::BufferFile (IOBuffer & from)
  // create with a buffer
 	: Buffer (from)
 {
 }
-
 int BufferFile::Open (char * filename, int mode)
 // open an existing file and check the header
 // a correct header must be on the file
@@ -27,7 +27,7 @@ int BufferFile::Open (char * filename, int mode)
 	return File . good();
 }
 
-int BufferFile::Create (char * filename, int mode)
+int BufferFile::Create (const char * filename, int mode)
 // create a new file and write a header on it.
 // use ios::nocreate to ensure that no file exists
 {

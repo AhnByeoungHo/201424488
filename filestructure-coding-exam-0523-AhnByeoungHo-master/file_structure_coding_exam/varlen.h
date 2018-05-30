@@ -2,7 +2,7 @@
 #ifndef VARLEN_H
 #define VARLEN_H
 
-#include <stdlib>
+#include <cstdlib>
 #include <iostream>
 #include "iobuffer.h"
 
