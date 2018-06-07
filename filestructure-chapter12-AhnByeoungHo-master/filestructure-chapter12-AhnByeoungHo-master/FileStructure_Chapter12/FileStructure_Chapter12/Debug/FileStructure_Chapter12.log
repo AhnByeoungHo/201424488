@@ -1,9 +1,4 @@
-﻿  buffile.cpp
-  fixfld.cpp
-d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixfld.cpp(100): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixfld.cpp(104): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixfld.cpp(135): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  fixlen.cpp
+﻿  fixlen.cpp
 d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(25): warning C4244: '초기화 중': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(38): warning C4244: '초기화 중': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(45): error C2131: 식이 상수로 계산되지 않았습니다.
@@ -80,8 +75,6 @@ d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강�
 d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(56): error C2131: 식이 상수로 계산되지 않았습니다.
   d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(52): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
   d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(52): note: 'headerStr1' 사용량 참조
-  length.cpp
-d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\length.cpp(29): warning C4267: '=': 'size_t'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   simpind.cpp
 d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(22): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
   d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(28): note: 컴파일 중인 클래스 템플릿 인스턴스화 'IndexBuffer<keyType>'에 대한 참조를 확인하세요.
@@ -104,7 +97,6 @@ d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강�
 d:\안병호\3학년1학기\파일구조\실제학기\filestructure-chapter12-ahnbyeoungho-master\filestructure-chapter12-ahnbyeoungho-master\filestructure_chapter12\filestructure_chapter12\bucket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'iobuffer.h': No such file or directory
   direct.cpp
 d:\안병호\3학년1학기\파일구조\실제학기\filestructure-chapter12-ahnbyeoungho-master\filestructure-chapter12-ahnbyeoungho-master\filestructure_chapter12\filestructure_chapter12\bucket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'iobuffer.h': No such file or directory
-  hash.cpp
   testhash.cpp
 d:\안병호\3학년1학기\파일구조\실제학기\filestructure-chapter12-ahnbyeoungho-master\filestructure-chapter12-ahnbyeoungho-master\filestructure_chapter12\filestructure_chapter12\bucket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'iobuffer.h': No such file or directory
   testhash_insert.cpp

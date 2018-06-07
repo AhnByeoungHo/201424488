@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\과제7\[FileStructure7]201424401_강해리\buffile.h" />
+    <ClInclude Include="..\..\..\..\..\과제7\[FileStructure7]201424401_강해리\direct.h" />
     <ClInclude Include="..\..\..\..\..\과제7\[FileStructure7]201424401_강해리\fixfld.h" />
     <ClInclude Include="..\..\..\..\..\과제7\[FileStructure7]201424401_강해리\fixlen.h" />
     <ClInclude Include="..\..\..\..\..\과제7\[FileStructure7]201424401_강해리\indbuff.h" />
@@ -145,7 +146,6 @@
     <ClInclude Include="..\..\..\..\..\과제7\[FileStructure7]201424401_강해리\tindbuff.h" />
     <ClInclude Include="..\..\..\..\..\과제7\[FileStructure7]201424401_강해리\varlen.h" />
     <ClInclude Include="bucket.h" />
-    <ClInclude Include="direct.h" />
     <ClInclude Include="hash.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
