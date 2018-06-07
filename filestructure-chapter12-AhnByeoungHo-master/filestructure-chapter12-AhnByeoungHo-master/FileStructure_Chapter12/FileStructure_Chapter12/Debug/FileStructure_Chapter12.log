@@ -1,0 +1,112 @@
+﻿  buffile.cpp
+  fixfld.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixfld.cpp(100): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixfld.cpp(104): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixfld.cpp(135): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  fixlen.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(25): warning C4244: '초기화 중': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(38): warning C4244: '초기화 중': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(45): error C2131: 식이 상수로 계산되지 않았습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(45): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(45): note: 'headerStr3' 사용량 참조
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(51): error C2131: 식이 상수로 계산되지 않았습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(45): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(45): note: 'headerStr3' 사용량 참조
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(68): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\fixlen.cpp(89): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  indbuff.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\simpind.h(33): error C2059: 구문 오류: '<'
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\simpind.h(37): note: 컴파일 중인 클래스 템플릿 인스턴스화 'SimpleIndex<keyType>'에 대한 참조를 확인하세요.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\simpind.h(33): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(28): error C2989: 'IndexBuffer': 클래스 템플릿이(가) 이미 비클래스 템플릿(으)로 선언되었습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\simpind.h(33): note: 'IndexBuffer' 선언을 참조하십시오.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(17): error C3857: 'IndexBuffer': 여러 개의 템플릿 매개 변수 목록을 사용할 수 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(9): error C2988: 템플릿 선언/정의를 인식할 수 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(9): error C2059: 구문 오류: '<'
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(10): error C2988: 템플릿 선언/정의를 인식할 수 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(10): error C2059: 구문 오류: '상수'
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(16): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(16): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(29): error C2988: 템플릿 선언/정의를 인식할 수 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(29): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(29): error C2059: 구문 오류: '<'
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(29): error C2039: 'Pack': '`global namespace''의 멤버가 아닙니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(30): error C2065: 'keyType': 선언되지 않은 식별자입니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(30): error C2923: 'SimpleIndex': 'keyType'은(는) 'keyType' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(31): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(31): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(44): error C2988: 템플릿 선언/정의를 인식할 수 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(44): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(44): error C2374: 'IndexBuffer': 재정의. 여러 번 초기화했습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(29): note: 'IndexBuffer' 선언을 참조하십시오.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(44): error C2059: 구문 오류: '<'
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(44): error C2039: 'Unpack': '`global namespace''의 멤버가 아닙니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(45): error C2065: 'keyType': 선언되지 않은 식별자입니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(45): error C2923: 'SimpleIndex': 'keyType'은(는) 'keyType' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(46): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(46): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(61): error C2988: 템플릿 선언/정의를 인식할 수 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(61): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(61): error C2182: 'IndexBuffer': 'void' 형식을 잘못 사용했습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(61): error C2374: 'IndexBuffer': 재정의. 여러 번 초기화했습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(29): note: 'IndexBuffer' 선언을 참조하십시오.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(61): error C2059: 구문 오류: '<'
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(61): error C2039: 'Print': '`global namespace''의 멤버가 아닙니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(62): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.cpp(62): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  indnode.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(22): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(28): note: 컴파일 중인 클래스 템플릿 인스턴스화 'IndexBuffer<keyType>'에 대한 참조를 확인하세요.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(22): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(23): error C2061: 구문 오류: 식별자 'SimpleIndex'
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\recfile.h(23): error C5037: 'RecordFile<RecType>::Read': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\recfile.h(34): error C5037: 'RecordFile<RecType>::Write': 클래스 템플릿 멤버의 확장 정의에는 기본 인수가 포함될 수 없습니다.
+  iobuffer.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(47): error C2666: 'std::fpos<_Mbstatet>::operator !=': 2개 오버로드에 비슷한 변환이 있습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\iosfwd(105): note: 'bool std::fpos<_Mbstatet>::operator !=(const std::fpos<_Mbstatet> &) const'일 수 있습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\system_error(392): note: 또는       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\system_error(387): note: 또는       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\system_error(382): note: 또는       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\system_error(377): note: 또는       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\exception(344): note: 또는       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\exception(339): note: 또는       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\exception(334): note: 또는       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(47): note: 또는       '기본 제공 C++ 연산자!=(std::streamoff, int)'일 수 있습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(47): note: 인수 목록 '(std::fpos<_Mbstatet>, int)'을(를) 일치시키는 동안
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(48): error C2664: 'int IOBuffer::Write(std::ostream &) const': 인수 1을(를) 'std::istream'에서 'std::ostream &'(으)로 변환할 수 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(52): error C2131: 식이 상수로 계산되지 않았습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(52): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(52): note: 'headerStr1' 사용량 참조
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(56): error C2131: 식이 상수로 계산되지 않았습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(52): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\iobuffer.cpp(52): note: 'headerStr1' 사용량 참조
+  length.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\length.cpp(29): warning C4267: '=': 'size_t'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  simpind.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(22): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(28): note: 컴파일 중인 클래스 템플릿 인스턴스화 'IndexBuffer<keyType>'에 대한 참조를 확인하세요.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(22): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\indbuff.h(23): error C2061: 구문 오류: 식별자 'SimpleIndex'
+  tindbuff.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\textind.h(14): error C2061: 구문 오류: 식별자 'ostream'
+  varlen.cpp
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(28): warning C4244: '초기화 중': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(44): warning C4244: '초기화 중': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(55): error C2131: 식이 상수로 계산되지 않았습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(55): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(55): note: 'headerStr' 사용량 참조
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(60): error C2131: 식이 상수로 계산되지 않았습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(55): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(55): note: 'headerStr' 사용량 참조
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(70): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\안병호\3학년1학기\파일구조\과제7\[filestructure7]201424401_강해리\varlen.cpp(89): warning C4244: 'return': 'std::streamoff'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  bucket.cpp
+d:\안병호\3학년1학기\파일구조\실제학기\filestructure-chapter12-ahnbyeoungho-master\filestructure-chapter12-ahnbyeoungho-master\filestructure_chapter12\filestructure_chapter12\bucket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'iobuffer.h': No such file or directory
+  direct.cpp
+d:\안병호\3학년1학기\파일구조\실제학기\filestructure-chapter12-ahnbyeoungho-master\filestructure-chapter12-ahnbyeoungho-master\filestructure_chapter12\filestructure_chapter12\bucket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'iobuffer.h': No such file or directory
+  hash.cpp
+  testhash.cpp
+d:\안병호\3학년1학기\파일구조\실제학기\filestructure-chapter12-ahnbyeoungho-master\filestructure-chapter12-ahnbyeoungho-master\filestructure_chapter12\filestructure_chapter12\bucket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'iobuffer.h': No such file or directory
+  testhash_insert.cpp
+d:\안병호\3학년1학기\파일구조\실제학기\filestructure-chapter12-ahnbyeoungho-master\filestructure-chapter12-ahnbyeoungho-master\filestructure_chapter12\filestructure_chapter12\bucket.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'iobuffer.h': No such file or directory
+  코드를 생성하고 있습니다...
